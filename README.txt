@@ -1,6 +1,6 @@
-This was originally part of pyutil
-http://tahoe-lafs.org/trac/pyutil
-http://pypi.python.org/pypi/pyutil
+This was originally part of jsonutil
+http://tahoe-lafs.org/trac/jsonutil
+http://pypi.python.org/pypi/jsonutil
 
 
 python ./setup.py test
@@ -8,11 +8,11 @@ python ./setup.py test
 Some modules have self-benchmarks provided.  For example, to benchmark
 the cache module, do
 
-python -OOu -c 'from pyutil.test import test_cache; test_cache.quick_bench()'
+python -OOu -c 'from jsonutil.test import test_cache; test_cache.quick_bench()'
 
 or for more complete and time-consuming results:
 
-python -OOu -c 'from pyutil.test import test_cache; test_cache.slow_bench()'
+python -OOu -c 'from jsonutil.test import test_cache; test_cache.slow_bench()'
 
 (The "-O" is important when benchmarking, since cache has extensive
 self-tests that are optimized out when -O is included.)

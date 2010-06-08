@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 # from http://json.org/JSON_checker/test/pass1.json
 JSON = r'''

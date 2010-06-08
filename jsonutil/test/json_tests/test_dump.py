@@ -1,7 +1,7 @@
 from unittest import TestCase
 from cStringIO import StringIO
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 class TestDump(TestCase):
     def test_dump(self):

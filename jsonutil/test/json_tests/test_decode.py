@@ -1,7 +1,7 @@
 import decimal
 from unittest import TestCase
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 class TestDecode(TestCase):
     def test_decimal(self):

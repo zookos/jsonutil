@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 class TestUnicode(TestCase):
     def test_encoding1(self):

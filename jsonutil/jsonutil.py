@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Copyright (c) 2010 Zooko Wilcox-O'Hearn
-#  This file is part of pyutil; see README.txt for licensing terms.
+#  This file is part of jsonutil; see README.txt for licensing terms.
 
 # We require simplejson>= 2.1.0 and set its default behavior to
 # use_decimal=True. This retains backwards compatibility with previous
@@ -134,8 +134,8 @@ from decimal import Decimal
 from simplejson.decoder import JSONDecoder, JSONDecodeError
 from simplejson.encoder import JSONEncoder
 def _import_OrderedDict():
-    from pyutil.odict import OrderedDict
-    return OrderedDict
+    import odict
+    return odict.OrderedDict
 OrderedDict = _import_OrderedDict()
 
 def _import_c_make_encoder():

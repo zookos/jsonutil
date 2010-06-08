@@ -1,8 +1,8 @@
 import decimal
 from twisted.trial.unittest import SkipTest, TestCase
 
-from pyutil.jsonutil import decoder
-from pyutil.jsonutil import encoder
+from jsonutil.jsonutil import decoder
+from jsonutil.jsonutil import encoder
 
 class TestSpeedups(TestCase):
     def test_scanstring(self):

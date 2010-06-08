@@ -1,7 +1,7 @@
 import math
 from unittest import TestCase
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 class TestFloat(TestCase):
     def test_floats(self):

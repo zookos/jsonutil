@@ -4,7 +4,7 @@ import unittest
 
 from decimal import Decimal
 
-from pyutil import jsonutil
+from jsonutil import jsonutil
 
 zero_point_one = Decimal("0.1")
 class TestDecimal(unittest.TestCase):

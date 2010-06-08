@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from pyutil import jsonutil as json
+from jsonutil import jsonutil as json
 
 # Fri Dec 30 18:57:26 2005
 JSONDOCS = [
